@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+body {
+    font-family: 'Sen', sans-serif !important;
+    background: black;
+}
+label {
+    font-family: 'Sen', sans-serif !important;
+}
+h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+h2 {
+    font-size: 50px;
+}
+.bg-transparent {
+    height: 100vh;
+}
+.bg-transparent div:nth-child(1) {
+    background: black;
+}
+.bg-transparent div:nth-child(2) {
+    background: rgb(24, 24, 35);
+}
+.main > div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main span {
+    color: rgba(255, 255, 255, 0.5);
+}
+.main .head-text-left {
+    margin-left: -50px;
+}
+.light-grey-color {
+    color: #8491a0;
+}
+.work .inner .work-numbers {
+    font-size: 7rem;
+    margin: 0;
+    display: inline;
+    line-height: 7rem;
+}
+.work .inner .work-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.article .text-content {
+    background-color: rgb(255, 243, 229);
+}
+.article img {
+    max-width: 100%;
+}
+.article p {
+    color: #5b6876;
+    font-size: 18px;
+    text-align: justify;
+}
+input, textarea {
+    background: #181823 !important;
+    border: none !important;
+    border-radius: unset !important;
+    color: white !important;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar{
+    padding: 0 !important;
+    border-top: 6px solid #5221e6;
+}
+.nav-item:nth-child(3){
+    background:#5221e6;
+    
+}
+
+@media (max-width: 600px){
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .main .head-text-left {
+        margin-left: auto;
+        margin-top: 0px!important;
+    }
+    .bg-transparent {
+        height: 290vh;
+    
+    }
+    .main > div{
+        margin: 0px 30px;
+    }
+}
+
+
+
+.photos .d-flex  .logo1{
+    border:1px solid white;
+    
+    
+}
+.photos .d-flex .logo2{
+     border-top:1px solid white ;
+     border-bottom:1px solid white ;
+     border-right:1px solid white ;
+}
+.photos .d-flex .logo3{
+    border-top:1px solid white ;
+    border-bottom:1px solid white ;
+}
+.logo6{
+    text-align: center;
+    
+}
+
+.work img {
+    
+    max-width: 100%;
+    color: #181823;
+}
+.bts img{
+    max-width: 100%;
+
+}
+.bts1 img{
+    max-width: 100%;
+}
+.bts2{
+    
+    max-width: 100%;
+  
+}
+.bts2 img {
+     height:300px;
+     width:600px;
+     vertical-align: middle;
+   
+    
+}
+.pic10{
+    text-align: center;
+    padding-top: 100px;
+}
+.bts5 img{
+    height:500px;
+    width:600px;
+}
+.work .d-flex .pic{
+    
+    padding: 40px 32px;
+    background-color:#181823; 
+}
+.work .d-flex .pic2{
+    
+    padding: 40px 32px;
+    background-color:#181823; 
+}
+.work .d-flex .pic3{
+    
+    padding: 40px 32px;
+    background-color:#181823; 
+}
+.work .d-flex .pic4{
+    
+    padding: 40px 32px;
+    background-color:#181823; 
+}
+.Instagram .text-content{
+    background-color: #fbe4ff;
+}
+
+.Instagram img{
+    max-width: 100%;
+}
+.Form .form-control{
+    background-color: #181823;
+    width: 400px;
+    height: 50px;
+    border: none !important;
+    border-radius: unset !important;
+
+}
+
+.button{
+background-color: #5221e6;
+height:80px;
+width:400px ;
+}
+
+.tes .tes1 .tes2{
+   
+    max-width: 100% !important;
+    
+
+}
+.social{
+    background-color: #181823;
+}
+.footer2{
+    
+    padding-top: 150px!important;
+    padding-right:200px!important ;
+    padding-left: -300px!important;
+    padding-bottom: 50px!important;
+}
